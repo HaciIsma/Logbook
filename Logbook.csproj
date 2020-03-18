@@ -118,7 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Presenter\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\diamond.png" />
