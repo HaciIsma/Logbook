@@ -45,7 +45,7 @@
             this.cb.AllowDrop = true;
             this.cb.Checked = true;
             this.cb.ForeColor = System.Drawing.Color.White;
-            this.cb.Location = new System.Drawing.Point(313, 28);
+            this.cb.Location = new System.Drawing.Point(349, 28);
             this.cb.Name = "cb";
             this.cb.RadioColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(208)))), ((int)(((byte)(116)))));
             this.cb.RadioHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(208)))), ((int)(((byte)(116)))));
@@ -59,7 +59,7 @@
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Nazanintar", 11F);
             this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(434, 14);
+            this.materialLabel3.Location = new System.Drawing.Point(443, 14);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.Hover;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(115, 23);
@@ -72,7 +72,7 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Nazanintar", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(570, 14);
+            this.materialLabel4.Location = new System.Drawing.Point(573, 14);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.Hover;
             this.materialLabel4.Name = "materialLabel4";
             this.materialLabel4.Size = new System.Drawing.Size(79, 23);
@@ -85,7 +85,7 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Nazanintar", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(270, 4);
+            this.materialLabel2.Location = new System.Drawing.Point(306, 4);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.Hover;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(115, 23);
@@ -162,6 +162,7 @@
             this.Controls.Add(this.materialLabel1);
             this.Name = "HeadControl";
             this.Size = new System.Drawing.Size(1133, 50);
+            this.Load += new System.EventHandler(this.HeadControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

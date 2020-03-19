@@ -1,4 +1,5 @@
-﻿using Logbook.View;
+﻿using Logbook.Model;
+using Logbook.View;
 using System;
 using System.Windows.Forms;
 
@@ -14,7 +15,9 @@ namespace Logbook
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var view = new Form1();
+            var presenter = new MainPresenter(view);
+            Application.Run(view);
         }
     }
 }

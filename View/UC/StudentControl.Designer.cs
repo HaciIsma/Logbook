@@ -57,7 +57,7 @@
             xuiRadio1.AllowDrop = true;
             xuiRadio1.Checked = true;
             xuiRadio1.ForeColor = System.Drawing.Color.White;
-            xuiRadio1.Location = new System.Drawing.Point(287, 22);
+            xuiRadio1.Location = new System.Drawing.Point(319, 22);
             xuiRadio1.Name = "xuiRadio1";
             xuiRadio1.RadioColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(208)))), ((int)(((byte)(116)))));
             xuiRadio1.RadioHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(208)))), ((int)(((byte)(116)))));
@@ -69,7 +69,7 @@
             // 
             this.xuiRadio2.Checked = true;
             this.xuiRadio2.ForeColor = System.Drawing.Color.White;
-            this.xuiRadio2.Location = new System.Drawing.Point(315, 22);
+            this.xuiRadio2.Location = new System.Drawing.Point(347, 22);
             this.xuiRadio2.Name = "xuiRadio2";
             this.xuiRadio2.RadioColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
             this.xuiRadio2.RadioHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(10)))));
@@ -81,7 +81,7 @@
             // 
             this.xuiRadio3.Checked = true;
             this.xuiRadio3.ForeColor = System.Drawing.Color.White;
-            this.xuiRadio3.Location = new System.Drawing.Point(341, 22);
+            this.xuiRadio3.Location = new System.Drawing.Point(373, 22);
             this.xuiRadio3.Name = "xuiRadio3";
             this.xuiRadio3.RadioColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
             this.xuiRadio3.RadioHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
