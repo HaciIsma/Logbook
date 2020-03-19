@@ -162,7 +162,6 @@
             this.Controls.Add(this.materialLabel1);
             this.Name = "HeadControl";
             this.Size = new System.Drawing.Size(1133, 50);
-            this.Load += new System.EventHandler(this.HeadControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

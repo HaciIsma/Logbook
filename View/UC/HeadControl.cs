@@ -8,10 +8,5 @@ namespace Logbook.View
         {
             InitializeComponent();
         }
-
-        private void HeadControl_Load(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }
